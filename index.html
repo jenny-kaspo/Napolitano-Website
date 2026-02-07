@@ -11,7 +11,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Dancing+Script:wght@400;500;600&family=Fredericka+the+Great&family=Julius+Sans+One&family=Lora:ital,wght@0,400;0,600;1,400;1,500&family=Quintessential&family=Work+Sans:wght@300;500;600;700&family=Quicksand:wght@300;400&display=swap" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="css/all.min.css">
 <body>
-	<div class="container" id="home">
+
+
+	<div class="container">
        <div class="header">
        	<nav>
 	<a href=""><img class="logo" src="images/logo.png"></a>
@@ -25,18 +27,18 @@
         </nav>
        </div>
 
-	   <div class="name">
-         <h1 class="text1" >Napolitano</h1>
-           <h5 class="text2" >pizza and more</h5></div>
+	   <div class="website-name" id="home" >
+         <h1 class="website-h1" >Napolitano</h1>
+           <h5 class="website-h5" >pizza and more</h5></div>
 	   </div>
 	</div>
 
-	<section class="about" id="about">
-		<div class="main"  >
+	<section class="about-container" id="about">
+		<div class="main-about"  >
 			<img src="images/chef.jpg">
 			<div class="about-text" >
-				<h1 class="about-heading">About </h1><br>
-				<p class="about-par">only in <span class="napoli">Napolitano</span> you will eat taste and enjoy the best Italian food ever.<br>
+				<h1 class="about-h1">About </h1><br>
+				<p class="about-p">only in <span class="napoli">Napolitano</span> you will eat taste and enjoy the best Italian food ever.<br>
 			    you will have the chance to try the very special meals prepared by professional chefs in the italian cuisine.<br>
 			    we will make sure you are served the most authentic and fresh Italian dishes.
 				come and experience all the italian vibes,<br>
@@ -58,7 +60,7 @@
 		</div>
 	</div>
 	  
-	<div class="menu">
+	<div class="menu-main">
 		<h2 class="menu-group-heading" id="pizza">Pizza</h2>
 		<div class="menu-group">
 			<div class="menu-item" >
@@ -266,21 +268,15 @@
 				</div>
 			</div>
 		</div>
-
-
 	</div>
-
 </div>
 
 
 <section class="form-container" id="reserve">
 	<div class="contact-box">
+			<img class="reserve-img" src="images/fam.jpg">	
 
- 	 <img src="images/fam.jpg">	
  	 <div class="form-box">
-
-
-
  	 	<form>
  	 	<fieldset>
  			<legend>Book your table</legend>
@@ -298,54 +294,41 @@
  			<input class="field" type="datetime-local" required><br>
 
  			<label class="fname">Number of people</label><br>
- 			<select>
+ 			<select class="field">
  				<option>1 person</option>
- 				<option>2 persons</option>
- 				<option>3 persons</option>
- 				<option>+4 persons</option>
+ 				<option>2 people</option>
+ 				<option>3 people</option>
+ 				<option>+4 people</option>
  			</select>
  			<br>
-
-
             <button class="btn" type="submit">send</button>	
-        
         </fieldset>
         </form>
-
  	 </div>
  	</div>
-
 </section>
 
 
-
-
-<section class="con-container" id="contact">
-	<div class="texts">
-		
-        <h3 class="c-i">Contact Info:</h3>
-		<p class="r1"><i class="fa fa-phone" aria-hidden="true"></i>
+<section class="contact-container" id="contact">
+	<div class="contact-main">	
+        <h3>Contact Info:</h3>
+		<p><i class="fa fa-phone" aria-hidden="true"></i>
           +6787555</p><br>
-        <p class="r2"><i class="fa fa-envelope" aria-hidden="true"></i>
+        <p><i class="fa fa-envelope" aria-hidden="true"></i>
            napolitano@gmail.com</p><br>
-        <p class="r3"><i class="fa fa-map-marker" aria-hidden="true"></i> Damascus-Syria</p><br>
+        <p><i class="fa fa-map-marker" aria-hidden="true"></i> Damascus-Syria</p><br>
 
-        <h3 class="o-h"> Opening Hours:</h3>
-        <p class="r4">we work all over the week</p><br>
-        <p class="r5">from: 10:00 am</p>
-        <p class="r6">to: 12:00 pm </p>
-
+        <h3> Opening Hours:</h3>
+        <p>we work all over the week</p><br>
+        <p><span>From:</span> 10:00 am</p>
+        <p><span>To:</span> 12:00 pm </p>
 	</div>
-
 </section>
-
-
 
 <footer>
 	<i class="fa fa-copyright" aria-hidden="true"></i>
     Copyright &copy; 2026 all rights reserved to Napoletano<br>
 	Design by Jenny Kasbo 
-
 </footer>
 
 
